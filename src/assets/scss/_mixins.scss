@@ -1,0 +1,24 @@
+// ----------------------------------------
+// Mixins
+// ----------------------------------------
+// Flex 설정 믹스인
+$flex-map: (
+    inline: inline-flex,
+    flex: flex,
+    start: flex-start,
+    end: flex-end,
+    between: space-between,
+    around: space-around,
+    stretch: stretch,
+    center: center
+);
+
+@function get_flex_value($key) {
+    @return map-get($flex-map, $key);
+}
+
+@mixin flexbox($type, $x, $y) {
+    display: get_flex_value($type);
+    align-items: get_flex_value($y);
+    justify-content: get_flex_value($x);
+}

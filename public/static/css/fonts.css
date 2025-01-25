@@ -1,0 +1,81 @@
+/* ********************************************* *
+ * fonts.css
+ * Updated : 2024-07-19
+ * Author : Park soohyun
+ * ******************************************** */
+/* 
+ * Pretendard
+ */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 900;
+  font-display: swap;
+  src: local("Pretendard Black"), url(../fonts/Pretendard-Black.subset.woff2) format("woff2"), url(../fonts/Pretendard-Black.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 800;
+  font-display: swap;
+  src: local("Pretendard ExtraBold"), url(../fonts/Pretendard-ExtraBold.subset.woff2) format("woff2"), url(../fonts/Pretendard-ExtraBold.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: local("Pretendard Bold"), url(../fonts/Pretendard-Bold.subset.woff2) format("woff2"), url(../fonts/Pretendard-Bold.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src: local("Pretendard SemiBold"), url(../fonts/Pretendard-SemiBold.subset.woff2) format("woff2"), url(../fonts/Pretendard-SemiBold.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: local("Pretendard Medium"), url(../fonts/Pretendard-Medium.subset.woff2) format("woff2"), url(../fonts/Pretendard-Medium.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard Regular"), url(../fonts/Pretendard-Regular.subset.woff2) format("woff2"), url(../fonts/Pretendard-Regular.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  font-display: swap;
+  src: local("Pretendard Light"), url(../fonts/Pretendard-Light.subset.woff2) format("woff2"), url(../fonts/Pretendard-Light.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 200;
+  font-display: swap;
+  src: local("Pretendard ExtraLight"), url(../fonts/Pretendard-ExtraLight.subset.woff2) format("woff2"), url(../fonts/Pretendard-ExtraLight.subset.woff) format("woff");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 100;
+  font-display: swap;
+  src: local("Pretendard Thin"), url(../fonts/Pretendard-Thin.subset.woff2) format("woff2"), url(../fonts/Pretendard-Thin.subset.woff) format("woff");
+}
+/* 
+ * Eulyoo1945
+ */
+@font-face {
+  font-family: "Eulyoo1945";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Eulyoo1945Regular.eot");
+  src: url("../fonts/Eulyoo1945Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Eulyoo1945Regular.woff2") format("woff2"), url("../fonts/Eulyoo1945Regular.woff") format("woff"), url("../fonts/Eulyoo1945Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Eulyoo1945";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/Eulyoo1945SemiBold.eot");
+  src: url("../fonts/Eulyoo1945SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Eulyoo1945SemiBold.woff2") format("woff2"), url("../fonts/Eulyoo1945SemiBold.woff") format("woff"), url("../fonts/Eulyoo1945SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
