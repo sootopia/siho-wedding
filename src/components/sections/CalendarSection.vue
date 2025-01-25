@@ -2,7 +2,7 @@
   <section class="calendar__section">
     <div class="container mx-auto px-5">
       <div class="calendar__wrapper">
-        <h2>2024. 09. 28</h2>
+        <h2>2025. 04. 05</h2>
         <div class="calendar__grid">
           <div class="calendar__header grid grid-cols-7">
             <div>일</div>
@@ -14,36 +14,41 @@
             <div>토</div>
           </div>
           <div class="calendar__days grid grid-cols-7">
-            <div class="sunday other__month"><span>1</span></div>
-            <div class="other__month"><span>2</span></div>
+            <div class="sunday other__month"><span>30</span></div>
+            <div class="other__month"><span>31</span></div>
+            <div><span>1</span></div>
+            <div><span>2</span></div>
             <div><span>3</span></div>
             <div><span>4</span></div>
-            <div><span>5</span></div>
-            <div><span>6</span></div>
+            <div class="active"><span>5</span></div>
+            <div class="sunday"><span>6</span></div>
             <div><span>7</span></div>
-            <div class="sunday"><span>8</span></div>
+            <div><span>8</span></div>
             <div><span>9</span></div>
             <div><span>10</span></div>
             <div><span>11</span></div>
             <div><span>12</span></div>
-            <div><span>13</span></div>
+            <div class="sunday"><span>13</span></div>
             <div><span>14</span></div>
-            <div class="sunday"><span>15</span></div>
+            <div><span>15</span></div>
             <div><span>16</span></div>
             <div><span>17</span></div>
             <div><span>18</span></div>
             <div><span>19</span></div>
-            <div><span>20</span></div>
+            <div class="sunday"><span>20</span></div>
             <div><span>21</span></div>
-            <div class="sunday"><span>22</span></div>
+            <div><span>22</span></div>
             <div><span>23</span></div>
             <div><span>24</span></div>
             <div><span>25</span></div>
             <div><span>26</span></div>
-            <div><span>27</span></div>
-            <div class="active"><span>28</span></div>
-            <div class="sunday"><span>29</span></div>
+            <div class="sunday"><span>27</span></div>
+            <div><span>28</span></div>
+            <div><span>29</span></div>
             <div><span>30</span></div>
+            <div class="other__month"><span>1</span></div>
+            <div class="other__month"><span>2</span></div>
+            <div class="other__month"><span>3</span></div>
           </div>
         </div>
       </div>
@@ -77,7 +82,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue';
 
 export default {
   setup() {
-    const weddingDay = ref(new Date('2024-09-28 15:00:00'));
+    const weddingDay = ref(new Date('2025-04-05 12:00:00'));
     const now = ref(new Date());
 
     /**
@@ -107,11 +112,11 @@ export default {
       let message;
 
       if (diffDays > 0) {
-        message = `수현 ❤️ 예솔 결혼식까지 <strong>${Math.abs(diffDays)}일</strong> 남았어요.`;
+        message = `시호 ❤️ 은빈 결혼식까지 <strong>${Math.abs(diffDays)}일</strong> 남았어요.`;
       } else if (diffDays < 0) {
-        message = `수현 ❤️ 예솔 결혼식일로부터 <strong>${Math.abs(diffDays)}일</strong> 지났어요.`;
+        message = `시호 ❤️ 은빈 결혼식일로부터 <strong>${Math.abs(diffDays)}일</strong> 지났어요.`;
       } else {
-        message = `수현 ❤️ 예솔 결혼식 당일이에요. 많은 축하 부탁드려요.`;
+        message = `시호 ❤️ 은빈 결혼식 당일이에요. 많은 축하 부탁드려요.`;
       }
 
       return [diffDays, diffHours, diffMinutes, diffSeconds, message];
