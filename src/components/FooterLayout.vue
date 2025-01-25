@@ -16,7 +16,8 @@
     </div>
 
     <div class="copyright text-center py-6">
-      <p>Copyright 2024 Soohyun &amp; Yesol All rights reserved.</p>
+      <p>Copyright 2025 Siho &amp; Eunbin All rights reserved.</p>
+      <p class="opacity-50">Crafted with ❤️ by Noppy Lab</p>
     </div>
   </footer>
 </template>
@@ -47,7 +48,7 @@ export default {
       Kakao.Share.sendCustom({
         templateId: 83370,
         templateArgs: {
-          title: '박수현♥정예솔 결혼합니다',
+          title: '최시호♥이은빈 결혼합니다',
           description: '새로운 시작의 자리에 소중한 여러분을 모시고 싶습니다.',
         },
       });
