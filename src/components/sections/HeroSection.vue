@@ -21,9 +21,9 @@
       </figure>
 
       <div class="greeting__text">
-        <h1 class="mb-4" data-aos="fade-up">박 수 현 <span>|</span> 정 예 솔</h1>
+        <h1 class="mb-4" data-aos="fade-up">최 시 호 <span>|</span> 이 은 빈</h1>
         <p data-aos="fade-up" data-aos-delay="100">
-          2024. 09. 28 (토) 오후 03:00 <br />메종 드 보네르 웨딩홀 1F 보네르홀
+          2025. 04. 05 (토) 오후 12:00 <br />BMK컨벤션 5F 하모니볼룸홀
         </p>
       </div>
     </div>
