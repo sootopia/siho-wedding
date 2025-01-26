@@ -3,10 +3,8 @@
     <div class="container mx-auto mb-6 px-5">
       <CommonHeader title="오시는 길" subtitle="LOCATION" />
       <div class="location__header">
-        <h3 data-aos="fade-up">메종 드 보네르 1F, 보네르 홀</h3>
-        <p data-aos="fade-up" data-aos-delay="100">
-          대전광역시 서구 한밭대로 797, 1층 <br />(둔산동, 캐피탈타워)
-        </p>
+        <h3 data-aos="fade-up">BMK컨벤션 5F, 하모니볼룸홀</h3>
+        <p data-aos="fade-up" data-aos-delay="100">대전광역시 중구 서문로 133</p>
       </div>
     </div>
 
@@ -45,11 +43,7 @@
         <ul>
           <li class="pl-4">
             <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#61b257]"></span>
-            1호선 정부청사역 4번 출구에서 도보 12분
-          </li>
-          <li class="pl-4">
-            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#61b257]"></span>
-            1호선 시청역 5번 출구에서 도보 15분
+            1호선 서대전네거리역 2번 출구에서 도보 10분
           </li>
         </ul>
       </div>
@@ -58,43 +52,23 @@
 
       <div class="info__group" data-aos="fade-up">
         <h4>버스</h4>
-        <h5>둥지네거리(32430) 하차</h5>
+        <h5>서대전역네거리 하차</h5>
         <ul>
           <li class="pl-4">
-            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#4eabaa]"></span>
-            일반 : 918
+            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#3d5bab]"></span>
+            간선 : 119, 201, 202, 311, 314, 513, 608, 613, 618, 612
           </li>
-        </ul>
-
-        <h5 class="mt-6">사학연금회관(32450) 하차</h5>
-        <ul>
           <li class="pl-4">
-            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#4eabaa]"></span>
-            일반 : 108, 213, 605, 703
+            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#5bb025]"></span>
+            외곽 : 33
           </li>
-        </ul>
-
-        <h5 class="mt-6">법원. 검찰청(32400) 하차</h5>
-        <ul>
           <li class="pl-4">
-            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#4eabaa]"></span>
-            일반 : 514, 916
+            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#c00]"></span>
+            급행 : 급행1
           </li>
-        </ul>
-
-        <h5 class="mt-6">사학연금회관(32490) 하차</h5>
-        <ul>
           <li class="pl-4">
-            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#4eabaa]"></span>
-            일반 : 108, 213, 605, 703
-          </li>
-        </ul>
-
-        <h5 class="mt-6">법원. 검찰청(32420) 하차</h5>
-        <ul>
-          <li class="pl-4">
-            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#4eabaa]"></span>
-            일반 : 514, 916
+            <span class="absolute block top-[3px] left-0 w-2 h-2 rounded-full bg-[#ec9f19]"></span>
+            광역 : 2002
           </li>
         </ul>
       </div>
@@ -104,7 +78,7 @@
       <div class="info__group" data-aos="fade-up">
         <h4>자가용</h4>
         <p class="leading-6">
-          명칭검색 : “메종드보네르" 검색 <br />주소검색 : 대전 서구 한밭대로 797
+          명칭검색 : &quot;더BMK웨딩&quot; 검색 <br />주소검색 : 대전광역시 중구 서문로 133
         </p>
       </div>
     </div>
@@ -126,7 +100,7 @@ export default {
      */
     const renderMap = () => {
       const HOME_PATH = window.HOME_PATH || '.';
-      const position = new naver.maps.LatLng(36.3583014, 127.388003);
+      const position = new naver.maps.LatLng(36.3198371, 127.405051);
       const mapOptions = {
         center: position,
         zoom: 16,
@@ -171,9 +145,9 @@ export default {
      * @param {string} appName 안내할 애플리케이션 이름
      */
     const handleNavigation = (appName) => {
-      const coordsX = 127.38749875998317;
-      const coordsY = 36.35868141030347;
-      const destName = '메종드보네르';
+      const coordsX = 127.405051;
+      const coordsY = 36.3198371;
+      const destName = '더BMK컨벤션';
 
       if (!appName) {
         alert('유효한 접근이 아닙니다.');
@@ -188,7 +162,7 @@ export default {
                 location.href = `tmap://?rGoName=${destName}&rGoX=${coordsX}&rGoY=${coordsY}`;
               } else {
                 location.href =
-                  'https://map.naver.com/p/directions/-/14180657.4542319,4350018.1041041,%EB%A9%94%EC%A2%85%EB%93%9C%EB%B3%B4%EB%84%A4%EB%A5%B4%20%EC%9B%A8%EB%94%A9%ED%99%80,12322661,PLACE_POI/-/car?c=15.00,0,0,0,dh';
+                  'https://map.naver.com/p/directions/-/14182699.6882142,4344724.2415897,BMK%EC%9B%A8%EB%94%A9%ED%99%80,33794156,PLACE_POI/-/car?c=15.00,0,0,0,dh';
               }
             });
 
@@ -203,7 +177,7 @@ export default {
                 location.href = `nmap://navigation?dlat=${coordsY}&dlng=${coordsX}&dname=${destName}&appname=com.nhn.android.nmap;`;
               } else {
                 location.href =
-                  'https://map.naver.com/p/directions/-/14180657.4542319,4350018.1041041,%EB%A9%94%EC%A2%85%EB%93%9C%EB%B3%B4%EB%84%A4%EB%A5%B4%20%EC%9B%A8%EB%94%A9%ED%99%80,12322661,PLACE_POI/-/car?c=15.00,0,0,0,dh';
+                  'https://map.naver.com/p/directions/-/14182699.6882142,4344724.2415897,BMK%EC%9B%A8%EB%94%A9%ED%99%80,33794156,PLACE_POI/-/car?c=15.00,0,0,0,dh';
               }
             });
             break;
@@ -221,8 +195,7 @@ export default {
                   coordType: 'wgs84',
                 });
               } else {
-                location.href =
-                  'https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,586930,794670&rt1=&rt2=%EB%A9%94%EC%A2%85%EB%93%9C%EB%B3%B4%EB%84%A4%EB%A5%B4&rtIds=,1578266948';
+                location.href = 'https://kko.kakao.com/M3ED3jzoIE';
               }
             });
             break;
@@ -246,7 +219,6 @@ export default {
 <style lang="scss" scoped>
 .location__section {
   padding-top: 80px;
-  padding-bottom: 80px;
 
   .location__header {
     text-align: center;
