@@ -3,14 +3,12 @@
     <div class="container mx-auto px-5">
       <div class="greeting__text">
         <CommonHeader title="소중한 분들을 초대합니다" subtitle="INVITATION" />
-        <p data-aos="fade-up">무더운 여름에 만난 저희,</p>
-        <p data-aos="fade-up" data-aos-delay="50">가을에 결실을 맺습니다.</p>
-        <p data-aos="fade-up" data-aos-delay="100">서로 믿어주고, 행복한 앞날을 소망하며,</p>
-        <p data-aos="fade-up" data-aos-delay="150">사랑으로 살겠습니다.</p>
-        <p data-aos="fade-up" data-aos-delay="200">부부로 인연을 맺는 자리에</p>
-        <p data-aos="fade-up" data-aos-delay="250">소중한 분들을 모시고자 합니다.</p>
-        <p data-aos="fade-up" data-aos-delay="300">따뜻한 사랑으로 저희 시작을 축복해 주시면</p>
-        <p data-aos="fade-up" data-aos-delay="350">감사하겠습니다.</p>
+        <p data-aos="fade-up">첫눈에 알았습니다.</p>
+        <p data-aos="fade-up" data-aos-delay="50">내 부족함을 채워주고</p>
+        <p data-aos="fade-up" data-aos-delay="100">평생을 함께할 수 있는 사람이라는 것을.</p>
+        <p data-aos="fade-up" data-aos-delay="150">이제 서로의 영원한 편이 되어주려 합니다.</p>
+        <p data-aos="fade-up" data-aos-delay="200">부디 자리하시어 큰 사랑이 될 수 있도록</p>
+        <p data-aos="fade-up" data-aos-delay="250">축복과 따스한 격려를 보내주세요.</p>
       </div>
 
       <div class="hero__wrapper">
@@ -20,10 +18,10 @@
 
         <div class="hero__info">
           <div data-aos="fade-up">
-            <strong>박선영&middot;김창순</strong>의 차남 <span class="hero">박수현</span>
+            <strong>최일현&middot;김은호</strong>의 차남 <span class="hero">최시호</span>
           </div>
           <div data-aos="fade-up" data-aos-delay="100">
-            <strong>정운천&middot;신수경</strong>의 장녀 <span class="hero">정예솔</span>
+            <strong>이종익&middot;나순복</strong>의 장녀 <span class="hero">이은빈</span>
           </div>
         </div>
 

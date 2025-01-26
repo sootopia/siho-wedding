@@ -61,42 +61,36 @@ export default {
     const accountArray = [
       [
         {
-          accountBank: '하나은행',
-          accountNumber: '646-300142-00108',
-          accountHolder: '신랑 아버지 박선영',
-          kakaoLink: 'https://link.kakaopay.com/_/UPVaAoE',
+          accountBank: '국민은행',
+          accountNumber: '404002-04-193689',
+          accountHolder: '신랑 아버지 최일현',
         },
         {
-          accountBank: '하나은행',
-          accountNumber: '661-910087-04307',
-          accountHolder: '신랑 어머니 김창순',
-          kakaoLink: 'https://link.kakaopay.com/_/UPVaAoE',
+          accountBank: '우리은행',
+          accountNumber: '1002-333-882698',
+          accountHolder: '신랑 어머니 김은호',
         },
         {
           accountBank: '국민은행',
-          accountNumber: '542302-04-131543',
-          accountHolder: '신랑 박수현',
-          kakaoLink: 'https://link.kakaopay.com/_/UPVaAoE',
+          accountNumber: '289302-04-321234',
+          accountHolder: '신랑 최시호',
         },
       ],
       [
         {
           accountBank: '신한은행',
-          accountNumber: '110-503-912466',
-          accountHolder: '신부 아버지 정운천',
-          kakaoLink: 'https://link.kakaopay.com/_/UPVaAoE',
+          accountNumber: '110-280-645951',
+          accountHolder: '신부 아버지 이종익',
         },
         {
-          accountBank: '농협은행',
-          accountNumber: '302-0605-5824-41',
-          accountHolder: '신부 어머니 신수경',
-          kakaoLink: 'https://link.kakaopay.com/_/UPVaAoE',
+          accountBank: '국민은행',
+          accountNumber: '023-05-0071-584',
+          accountHolder: '신부 어머니 나순복',
         },
         {
-          accountBank: '카카오뱅크',
-          accountNumber: '3333-06-3098908',
-          accountHolder: '신부 정예솔',
-          kakaoLink: 'https://link.kakaopay.com/_/UPVaAoE',
+          accountBank: '우리은행',
+          accountNumber: '1002-535-108826',
+          accountHolder: '신부 이은빈',
         },
       ],
     ];
@@ -122,6 +116,7 @@ export default {
 <style lang="scss" scoped>
 .account__section {
   padding-top: 80px;
+  padding-bottom: 80px;
 
   .notify__text {
     font-size: 15px;
