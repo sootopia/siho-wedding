@@ -108,17 +108,6 @@ export default {
       '/static/images/gallery18.webp',
       '/static/images/gallery19.webp',
       '/static/images/gallery20.webp',
-      '/static/images/gallery21.webp',
-      '/static/images/gallery22.webp',
-      '/static/images/gallery23.webp',
-      '/static/images/gallery24.webp',
-      '/static/images/gallery25.webp',
-      '/static/images/gallery26.webp',
-      '/static/images/gallery27.webp',
-      '/static/images/gallery28.webp',
-      '/static/images/gallery29.webp',
-      '/static/images/gallery30.webp',
-      '/static/images/gallery31.webp',
     ];
     const isMoreView = ref(false);
     const visibleRef = ref(false);
