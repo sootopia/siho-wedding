@@ -18,7 +18,7 @@
 
         <div class="hero__info">
           <div data-aos="fade-up">
-            <strong>최일현&middot;김은호</strong>의 차남 <span class="hero">최시호</span>
+            <strong>최일현&middot;김은호</strong>의 장남 <span class="hero">최시호</span>
           </div>
           <div data-aos="fade-up" data-aos-delay="100">
             <strong>이종익&middot;나순복</strong>의 장녀 <span class="hero">이은빈</span>
