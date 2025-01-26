@@ -3,10 +3,10 @@
     <ConfettiParticles />
     <HeroSection />
     <InvitationSection />
-    <AccountSection />
     <GallerySection />
     <CalendarSection />
     <LocationSection />
+    <AccountSection />
     <FooterLayout />
     <MusicButton />
   </div>
